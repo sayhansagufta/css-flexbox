@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Perfect-Center</title>
+    <style>
+      /* parent element */
+      /* set justify-content align-items */
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: dodgerblue;
+        height: 300px;
+      }
+      .flex-container > div {
+        background-color: #f1f1f1;
+        color: white;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- perfect container mix justify-content & align-items -->
+    <h1>Perfect Centering</h1>
+    <p>A flex container with both the justify-content and the align-items properties set to center will align the item(s) in the center (in both axis).</p>
+    <div class="flex-container">
+      <div></div>
+    </div>
+  </body>
+</html>
