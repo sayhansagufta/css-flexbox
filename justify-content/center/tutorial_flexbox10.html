@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justify Content Property</title>
+    <style>
+      /* set justify-content: center */
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color: dodgerblue;
+      }
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Justify-Content Property -->
+    <h1>The Justify-Content Property</h1>
+    <p>The "Justify-Content: center;" aligns the flex items at the center of the container:</p>
+    <!-- Parent Element -->
+    <div class="flex-container">
+      <!-- Child Element -->
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>

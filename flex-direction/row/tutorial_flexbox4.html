@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial Flexbox Properti CSS 3</title>
+    <style>
+      /* Parent elemen */
+      /* set flex-direction: row*/
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: dodgerblue;
+      }
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- properti flex-direction: row -->
+    <h1>The flex-direction property</h1>
+    <p>The "flex-direction: row;" stacks the flex items horizontally (from left to right):</p>
+    <!-- Parent Element -->
+    <div class="flex-container">
+      <!-- child element -->
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>
